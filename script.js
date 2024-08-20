@@ -6,59 +6,59 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "",
+        enunciado: "Vocễ sabe oq são jogos eletronicos?",
         alternativas: [
             {
-                texto: "Alternativa 1 da pergunta 1",
+                texto: "Sim",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "otimo!",
+                    "Q legal!"
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 1",
+                texto: "Não, eu moro numa caverna escura e triste",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "O jogo eletrônico, videojogo ou videogame é aquele que usa a tecnologia de computador. Ele pode ser jogado em computadores pessoais (dentre eles tablets e telefones celulares), em máquinas de fliperama ou em consoles.",
+                    "Que pena meu cria"
                     ]
             }           
             
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Você joga jogos eletronicos com frequência?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 2",
+                texto:"Sim, adoro jogos",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "jogos são muito legais!",
+                    "jogos são muito bons só toma cuidado pra n viciar"
                     ]
             },
             {
-                texto: "Alternativa 2 da pergunta 2",
+                texto: "Não, n curto muito jogo",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "então blz meu cria",
+                    "q paia po"
                     ]
             }
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Você acha q jogos eletronicos deviam ser considerados esportes?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 3",
+                texto:"Sim",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Poggers",
+                    "Daora!"
                     ]
             },
             {
-                texto:"Alternativa 2 da pergunta 3",
+                texto:"Não",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "então blz fi",
+                    "Um missil está em direção a vc, se esconda ou corra, ele chegara em 2 minutos"
                     ]
             }
             
