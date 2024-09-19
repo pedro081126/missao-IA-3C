@@ -26,7 +26,7 @@ export const perguntas = [
                 texto:"Sim, adoro jogos",
                 afirmacao: [
                     "jogos são muito legais!",
-                    "jogos são muito bons só toma cuidado pra n viciar"
+                    "jogos são muito bons"
                     ]
             },
             {
@@ -58,4 +58,86 @@ export const perguntas = [
             
         ]
     },
+    {
+        enunciado: "Você tem interesse em jogos eletronicos?",
+        alternativas: [
+            {
+                texto: "Sim",
+                afirmacao: [
+                    "Otimo!",
+                    "maravlha!"
+                    ]
+            },
+            {
+                texto: "Não",
+                afirmacao: [
+                    "então vlw fi",
+                    "flw meu cria"
+                    ]
+            }           
+            
+        ]
+    },
+    {
+        enunciado: "Você Joga Street Fighter?",
+        alternativas: [
+            {
+                texto: "Sim",
+                afirmacao: [
+                    "opa daora demais!",
+                    "Street Fighter é mó daora!"
+                    ]
+            },
+            {
+                texto: "Não",
+                afirmacao: [
+                    "então blz",
+                    "triste."
+                    ]
+            }           
+            
+        ]
+    },
+    {
+        enunciado: "Gostaria de participar de um mini quiz de Street Fighter?",
+        alternativas: [
+            {
+                texto: "Sim, vamos lá",
+                afirmacao: [
+                    "então bora!",
+                    "então belezura!"
+                    ]
+            },
+            {
+                texto: "Não to afim",
+                afirmacao: [
+                    "A blz",
+                    "tranquilo"
+                    ]
+            }           
+            
+        ]
+    },
+
+    {
+        enunciado: "Quantos personagens podem usar o hadouke em Street Fighter?",
+        alternativas: [
+            {
+                texto: "6",
+                afirmacao: [
+                    "afirmacao 1",
+                    "afirmacao 2"
+                    ]
+            },
+            {
+                texto: "4",
+                afirmacao: [
+                    "afirmacao 1",
+                    "afirmacao 2"
+                    ]
+            }           
+            
+        ]
+    },
+    
 ];
