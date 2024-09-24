@@ -7,17 +7,22 @@ export const perguntas = [
                 afirmacao: [
                     "otimo!",
                     "Q legal!"
-                    ]
+                    ],
+
+                    proxima: 1,
             },
+
             {
                 texto: "Não, eu moro numa caverna escura e triste",
                 afirmacao: [
                     "O jogo eletrônico, videojogo ou videogame é aquele que usa a tecnologia de computador. Ele pode ser jogado em computadores pessoais (dentre eles tablets e telefones celulares), em máquinas de fliperama ou em consoles.",
                     "Que pena meu cria"
-                    ]
+                    ],
+                    proxima: 3,
             }           
             
-        ]
+        ],
+
     },
     {
         enunciado: "Você joga jogos eletronicos com frequência?",
@@ -27,14 +32,18 @@ export const perguntas = [
                 afirmacao: [
                     "jogos são muito legais!",
                     "jogos são muito bons"
-                    ]
+                    ],
+
+                    proxima: 2,
+
             },
             {
                 texto: "Não, n curto muito jogo",
                 afirmacao: [
                     "então blz meu cria",
                     "q paia po"
-                    ]
+                    ],
+                    proxima: 2,
             }
         ]
     },
@@ -46,14 +55,15 @@ export const perguntas = [
                 afirmacao: [
                     "Poggers",
                     "Daora!"
-                    ]
+                    ],
+                    proxima: 4,
             },
             {
                 texto:"Não",
                 afirmacao: [
                     "então blz fi",
                     "Um missil está em direção a vc, se esconda ou corra, ele chegara em 2 minutos"
-                    ]
+                    ],
             }
             
         ]
@@ -66,14 +76,16 @@ export const perguntas = [
                 afirmacao: [
                     "Otimo!",
                     "maravlha!"
-                    ]
+                    ],
+                    proxima: 2,
             },
             {
                 texto: "Não",
                 afirmacao: [
                     "então vlw fi",
                     "flw meu cria"
-                    ]
+                    ],
+                    proxima: 2,
             }           
             
         ]
@@ -86,7 +98,8 @@ export const perguntas = [
                 afirmacao: [
                     "opa daora demais!",
                     "Street Fighter é mó daora!"
-                    ]
+                    ],
+                    proxima: 5,
             },
             {
                 texto: "Não",
@@ -106,7 +119,9 @@ export const perguntas = [
                 afirmacao: [
                     "então bora!",
                     "então belezura!"
-                    ]
+                    ],
+
+                    proxima: 6,
             },
             {
                 texto: "Não to afim",
@@ -125,15 +140,36 @@ export const perguntas = [
             {
                 texto: "6",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
+                    "Boa!",
+                    "Acertou!"
                     ]
             },
             {
                 texto: "4",
                 afirmacao: [
-                    "afirmacao 1",
+                    "Errou...",
+                    "É não foi dessa vez..."
+                    ]
+            }           
+            
+        ]
+    }, 
+    
+    {
+        enunciado: "Quem é o rival do Ryo?",
+        alternativas: [
+            {
+                texto: "Ms.Bison",
+                afirmacao: [
+                    "Foi quase, mas errou",
                     "afirmacao 2"
+                    ]
+            },
+            {
+                texto: "Ken",
+                afirmacao: [
+                    "Boa demais!",
+                    "É isso ai!"
                     ]
             }           
             
@@ -141,3 +177,26 @@ export const perguntas = [
     },
     
 ];
+{
+
+    enunciado: "Quem é o vilão da saga principal de Street Fighter?",
+        alternativas: [
+            {
+                texto: "Ms.Bison",
+                afirmacao: [
+                    "É esse cara ai",
+                    "Ainda bem que você não errou",
+                    ]
+            },
+            {
+                texto: "Ms. Bean",
+                afirmacao: [
+                    "Mano...",
+                    "Olha ta errado...",
+                    ]
+            }           
+            
+        ],
+    },
+
+
