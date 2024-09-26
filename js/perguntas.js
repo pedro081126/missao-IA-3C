@@ -176,7 +176,7 @@ export const perguntas = [
         ]
     },
     
-];
+
 {
 
     enunciado: "Quem é o vilão da saga principal de Street Fighter?",
@@ -194,9 +194,50 @@ export const perguntas = [
                     "Mano...",
                     "Olha ta errado...",
                     ]
-            }           
+            }          
             
-        ],
+        ]
+    },
+    {
+    enunciado: "Qm foi o mestre do Ryo?",
+        alternativas: [
+            {
+                texto: "Goken",
+                afirmacao: [
+                    "Você conhece mesmo Street Fighter em",
+                    "Boa meu cria",
+                    ]
+            },
+            {
+                texto: "Akuma",
+                afirmacao: [
+                    "Errouuu",
+                    "n foi dessa vez",
+                    ]
+            }          
+            
+        ]
     },
 
+    {
+        enunciado: "Gostou do quiz?",
+            alternativas: [
+                {
+                    texto: "Sim",
+                    afirmacao: [
+                        "Obrigado pela participação!!!",
+                        "Obrigado pela participação!!!",
+                        ]
+                },
+                {
+                    texto: "Não",
+                    afirmacao: [
+                        "Você será caçado, se esconda",
+                        "ok mas muito obrigado pela participação",
+                        ]
+                }          
+                
+            ]
+        },
 
+];
