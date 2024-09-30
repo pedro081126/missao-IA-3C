@@ -138,7 +138,7 @@ export const perguntas = [
         enunciado: "Quantos personagens podem usar o hadouke em Street Fighter?",
         alternativas: [
             {
-                texto: "6",
+                texto: "7",
                 afirmacao: [
                     "Boa!",
                     "Acertou!"
