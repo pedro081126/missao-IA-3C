@@ -142,14 +142,17 @@ export const perguntas = [
                 afirmacao: [
                     "Boa!",
                     "Acertou!"
-                    ]
+                    ],
+                
+                proxima: 7,
             },
             {
                 texto: "4",
                 afirmacao: [
                     "Errou...",
                     "É não foi dessa vez..."
-                    ]
+                    ],
+                proxima: 7,
             }           
             
         ]
@@ -163,14 +166,17 @@ export const perguntas = [
                 afirmacao: [
                     "Foi quase, mas errou",
                     "afirmacao 2"
-                    ]
+                    ],
+                
+                proxima: 8,
             },
             {
                 texto: "Ken",
                 afirmacao: [
                     "Boa demais!",
                     "É isso ai!"
-                    ]
+                    ],
+                proxima: 8,
             }           
             
         ]
@@ -186,14 +192,16 @@ export const perguntas = [
                 afirmacao: [
                     "É esse cara ai",
                     "Ainda bem que você não errou",
-                    ]
+                    ],
+                proxima: 9,
             },
             {
                 texto: "Ms. Bean",
                 afirmacao: [
                     "Mano...",
                     "Olha ta errado...",
-                    ]
+                    ],
+                proxima: 9,
             }          
             
         ]
@@ -206,14 +214,16 @@ export const perguntas = [
                 afirmacao: [
                     "Você conhece mesmo Street Fighter em",
                     "Boa meu cria",
-                    ]
+                    ],
+                proxima: 10,
             },
             {
                 texto: "Akuma",
                 afirmacao: [
                     "Errouuu",
                     "n foi dessa vez",
-                    ]
+                    ],
+                proxima: 10,
             }          
             
         ]
